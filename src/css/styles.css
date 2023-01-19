@@ -15,6 +15,31 @@ body {
 #search-box {
   font: inherit;
   padding: 8px;
-  max-width: 320px;
+  width: 320px;
   margin-bottom: 16px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 320px;
+}
+
+li {
+  margin-bottom: 10px;
+
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+}
+.country-info {
+  text-align: center;
+  width: 320px;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
 }
